@@ -5,7 +5,4 @@ app=FastAPI()
 
 @app.get('/')
 async def read():
-    return 'hello, world'
-
-if __name__ == '__main__':
-    uvicorn.run(app, debug=True) 
+    return 'hello, world' 
